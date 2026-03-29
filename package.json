@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "tsx src/index.ts",
     "dev:http": "tsx src/index.ts",
-    "build": "tsc",
+    "build": "tsc && cp -r src/fonts dist/fonts",
     "build:watch": "tsc --watch",
     "start": "node dist/index.js",
     "inspector": "npx @modelcontextprotocol/inspector -- tsx src/index.ts",

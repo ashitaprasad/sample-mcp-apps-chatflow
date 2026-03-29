@@ -19,8 +19,8 @@ applyPlugin(jsPDF);
 
 // Load Noto Sans font (supports ₹ and other Unicode currency symbols)
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const notoRegularPath = join(__dirname, '..', '..', 'src', 'fonts', 'NotoSans-Regular.ttf');
-const notoBoldPath = join(__dirname, '..', '..', 'src', 'fonts', 'NotoSans-Bold.ttf');
+const notoRegularPath = join(__dirname, '..', 'fonts', 'NotoSans-Regular.ttf');
+const notoBoldPath = join(__dirname, '..', 'fonts', 'NotoSans-Bold.ttf');
 const notoRegularBase64 = readFileSync(notoRegularPath).toString('base64');
 const notoBoldBase64 = readFileSync(notoBoldPath).toString('base64');
 
