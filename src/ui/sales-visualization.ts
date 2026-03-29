@@ -6,10 +6,10 @@
  * Receives data via structuredContent from the sales_visualize tool.
  */
 
-import { baseStyles, CHART_COLORS, salesVisualizationStyles } from '../styles';
-import { metricShortNames } from '../data/metric-names';
-import { indianStates } from '../data/indian-states';
-import { metricConfig } from '../data/sales-data';
+import { baseStyles, CHART_COLORS, salesVisualizationStyles } from '../styles.js';
+import { metricShortNames } from '../data/metric-names.js';
+import { indianStates } from '../data/indian-states.js';
+import { metricConfig } from '../data/sales-data.js';
 
 export function SALES_VISUALIZATION_UI(): string {
   return `<!DOCTYPE html>

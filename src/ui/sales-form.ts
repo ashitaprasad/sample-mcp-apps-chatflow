@@ -5,9 +5,9 @@
  * Allows multi-select states, metric selection, and quarterly/monthly toggle.
  */
 
-import { baseStyles, indiaSalesStyles } from '../styles';
-import { indianStates, topStates } from '../data/indian-states';
-import { metricDisplayNames } from '../data/metric-names';
+import { baseStyles, indiaSalesStyles } from '../styles.js';
+import { indianStates, topStates } from '../data/indian-states.js';
+import { metricDisplayNames } from '../data/metric-names.js';
 
 export function SALES_UI(): string {
   const metricOptions = Object.entries(metricDisplayNames)

@@ -6,7 +6,7 @@
  * and provides a download button. All PDF generation happens server-side.
  */
 
-import { baseStyles, salesPdfReportStyles } from '../styles';
+import { baseStyles, salesPdfReportStyles } from '../styles.js';
 
 export function SALES_PDF_REPORT_UI(): string {
   return `<!DOCTYPE html>
